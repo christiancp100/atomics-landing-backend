@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_seo_seo_components",
+  "info": {
+    "displayName": "seoComponent",
+    "icon": "atlas"
+  },
+  "options": {},
+  "attributes": {
+    "metaTitle": {
+      "type": "string"
+    },
+    "metaDescription": {
+      "type": "string"
+    },
+    "Meta": {
+      "displayName": "Meta",
+      "type": "component",
+      "repeatable": true,
+      "component": "seo.meta"
+    },
+    "preventIndexing": {
+      "type": "boolean"
+    },
+    "structureData": {
+      "type": "json"
+    },
+    "metaImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

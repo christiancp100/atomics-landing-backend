@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_blocks_buttons",
+  "info": {
+    "displayName": "button",
+    "icon": "mouse"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    }
+  }
+}
