@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_blocks_list_sections",
+  "info": {
+    "displayName": "ListSection",
+    "icon": "chart-line",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "service": {
+      "displayName": "services",
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.services"
+    },
+    "image": {
+      "displayName": "image2",
+      "type": "component",
+      "repeatable": false,
+      "component": "blocks.image2"
+    }
+  }
+}

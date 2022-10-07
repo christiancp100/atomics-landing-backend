@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_blocks_image2s",
+  "info": {
+    "displayName": "image2",
+    "icon": "image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

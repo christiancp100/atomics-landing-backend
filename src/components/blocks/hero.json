@@ -2,11 +2,24 @@
   "collectionName": "components_blocks_heroes",
   "info": {
     "displayName": "hero",
-    "icon": "desktop"
+    "icon": "desktop",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "button": {
+      "displayName": "button",
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.button"
+    },
+    "pretitle": {
       "type": "string"
     },
     "image": {
@@ -18,15 +31,6 @@
       ],
       "type": "media",
       "multiple": false
-    },
-    "description": {
-      "type": "richtext"
-    },
-    "button": {
-      "displayName": "button",
-      "type": "component",
-      "repeatable": true,
-      "component": "blocks.button"
     }
   }
 }
